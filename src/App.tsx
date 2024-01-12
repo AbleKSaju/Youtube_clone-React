@@ -1,13 +1,13 @@
-import React from 'react';
-import './App.css';
-import './index.css'
-import PageHeader from './layouts/PageHeader';
+import React from "react";
+import "./App.css";
+import "./index.css";
+import PageHeader from "./layouts/PageHeader";
+import CategoryPills from "./components/CategoryPills";
 
 function App() {
   return (
     <div className="max-h-screen flex flex-col">
-      <PageHeader/>
-      <div>2</div>
+      <PageHeader />
     </div>
   );
 }
